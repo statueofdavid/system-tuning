@@ -14,3 +14,7 @@ This feels like a big idea and for those know me this is typical. With that said
 ... this is yet another one of my project ideas (yaoompi) ...
 
 hoping this one happens though 'cause, at the time of this writing, I believe this is the one to the unlock the rest (tottutr) :^)
+
+rando thought from my inital dive, "...isolation is the first step in implementing a more secure system..."
+
+also thinking about whether or not I eventually clean up this readme or if I keep it doc my journey... solution: clean up it up once declared_space has a blog and this may be my first post on it ¯\_(ツ)_/¯
