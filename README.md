@@ -17,4 +17,4 @@ hoping this one happens though 'cause, at the time of this writing, I believe th
 
 rando thought from my inital dive, "...isolation is the first step in implementing a more secure system..."
 
-also thinking about whether or not I eventually clean up this readme or if I keep it doc my journey... solution: clean up it up once declared_space has a blog and this may be my first post on it ¯\_(ツ)_/¯
+also thinking about whether or not I eventually clean up this readme or if I keep it to doc my journey... solution: clean up it up once declared_space has a blog section and this may be my first post on it ¯\_(ツ)_/¯
