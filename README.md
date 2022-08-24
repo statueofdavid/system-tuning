@@ -39,5 +39,27 @@ so how does the namespace api function?
       - so much more...
       - CURRENT ISSUE: I can not figure out how to call clone() from a terminal
       - it seems like the unshare command is the way to create namespaces from a terminal
-      - possibly more to come but in the near term I have no examples...
+      - possibly more to come but in the near term I have no examples... but I think I am developing an idea here.
+        - part of the story of clone() is to understand fork() and other exec sys calls (execl(), execlp(), execv(), execvp())
+        - I wonder if golang has a way.. or what system lang performs best for this (carbon v. rust v. go v. c)
+        - I originally wanted to find a way through terminal tools, seems like there is an opportunity to run some few comparsions here
+        - research -> ( 
+          fork(
+            - the most up to date article I found was here: https://www.geeksforgeeks.org/fork-system-call/
+            - geeksforgeeks provides some very simple examples to start my exploration
+            - I did like what linuxhint provided:
+              - an if/else that leverages fork's returned value (-1,0)
+            - my current confusion swirls around when I add a call to fork() within each if/else block
+            - why does output display two parents and two children?
+              - I was expecting something like p -> k,k -> 
+              - even more interesting (at least to me)
+                - when I move the fork() call after each printf() within the if/else blocks
+                  - then output displays a parent and a child... wth?
+                  - will continue later...
+          ), 
+          execl(), 
+          execlp(), 
+          execv(), 
+          execvp())
+        
     2. 
